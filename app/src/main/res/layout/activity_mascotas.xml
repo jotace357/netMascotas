@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cvContacto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/nombre"
+        android:textSize="@dimen/nombre_mascota"
+        android:textStyle="bold"
+        >
+    </androidx.appcompat.widget.AppCompatAutoCompleteTextView>
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+            android:id="@+id/tvHuesos"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/nombre"
+            android:textSize="@dimen/huesito"
+            android:textStyle="bold"
+            >
+        </androidx.appcompat.widget.AppCompatAutoCompleteTextView>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
