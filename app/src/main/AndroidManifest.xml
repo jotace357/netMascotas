@@ -19,14 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
     </application>
-    <activity android:name=".activity_detalle_mascota"
-
-        android:parentActivityName=".MainActivity"></activity>
-    <meta-data
-
-        android:name="android.support.PARENT_ACTIVITY"
-        android:value=".MainActivity"></meta-data>
-</application>
 
 </manifest>
